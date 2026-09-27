@@ -22,11 +22,25 @@ pip install -r requirements.txt
 
 ### UV commands
 ```
-| Conda / pip                                 | `uv`                                 |
-| ------------------------------------------- | ------------------------------------ |
-| `conda create -n <env_name> python=3.11 -y` | `uv venv <env_name> --python 3.11`   |
-| `conda activate <env_name>`                 | `.\<env_name>\Scripts\Activate.ps1`  |
-| `conda deactivate`                          | `deactivate`                         |
-| `pip install -r requirements.txt`           | `uv pip install -r requirements.txt` |
+uv venv <env_name> --python 3.11
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+uv pip install -r requirements.txt
+```
 
+### Project Structure
+ScamGuardAI
+- experiments
+    - `workflow.ipynb`
+- llm
+    - `__init__.py`
+- pipeline
+    - `__init__.py`
+- streamlit'
+    -`__init__.py`
+`__init__.py`
+requirements.txt
+utils.py
+main.py
+
+__init__.py tells Python that a directory should be treated as a Python package. It can also contain package initialization code.
 ```
