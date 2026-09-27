@@ -68,8 +68,8 @@ ScamGuardAI
 - streamlit'
     -`__init__.py`
 `__init__.py`
-requirements.txt
-utils.py
-main.py
+- requirements.txt
+- utils.py
+- main.py
 
 __init__.py tells Python that a directory should be treated as a Python package. It can also contain package initialization code.
