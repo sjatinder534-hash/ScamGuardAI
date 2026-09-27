@@ -43,4 +43,3 @@ utils.py
 main.py
 
 __init__.py tells Python that a directory should be treated as a Python package. It can also contain package initialization code.
-```
